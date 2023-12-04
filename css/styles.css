@@ -1,0 +1,55 @@
+
+body{
+    height: 200vh;
+}
+
+.btn-info {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.btn-info:hover {
+    background-color: white;
+}
+
+.btn-secondary {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: black;
+}
+
+.container button {
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.btn-danger {
+    margin-left: 660px;
+}
+
+.cat-background {
+    background-image: url(../img/cats.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dog-background {
+    background-image: url(../img/dogs1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
