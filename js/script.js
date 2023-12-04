@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $("button#cats").click(function () {
-        $("ul").prepend("<li>Hello!</li>");
-        $('li').css('background-color', 'green');
+        $(".unstyled").prepend("<li>Meoww!</li>");
+        $(".styled").prepend("<li>Roof Roof!</li>")
+        $('li').addClass("coloured");
         $("body").removeClass().toggle()
         $("body").addClass("cat-background").toggle();
     });
@@ -11,8 +12,10 @@ $(document).ready(function () {
     // });
 
     $("button#dogs").click(function () {
-        $("ul").prepend("<li>Stop copying me!</li>");
+        $(".unstyled").prepend("<li>Meoww!</li>");
+        $(".styled").prepend("<li>Roof Roof!</li>")
         $("body").removeClass().toggle()
         $("body").addClass("dog-background").toggle();
+        $('li').addClass("list");
     })
 })

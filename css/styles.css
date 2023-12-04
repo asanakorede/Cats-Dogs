@@ -1,5 +1,4 @@
-
-body{
+body {
     height: 200vh;
 }
 
@@ -52,4 +51,18 @@ body{
 .btn:hover {
     background-color: white;
     color: black;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.list {
+    background-color: crimson;
+    color: white;
+}
+
+.coloured{
+    background-color: darkblue;
+    color: white;
 }
